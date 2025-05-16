@@ -1,0 +1,7 @@
+manifest_version: 1
+version: 1.0.0
+artifacts:
+  - app/streamlit/Data_Insights.py
+  - app/streamlit/merged_output_final.csv
+  - app/streamlit/1_Dataset_Search_and_results.py
+default_streamlit: app/streamlit/Data_Insights.py

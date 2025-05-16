@@ -1,0 +1,885 @@
+dataset_name,table_name,granularity,paid/unpaid,region,hierarchy,category,dateTimeColumn,Being used,Utilised in Project
+ENTSOE - Day_Ahead_Prices,Day_Ahead_Prices_PT15M,15-min,PAID,EMEA,ENTSOE,Pricing,DateTime,No,No
+ENTSOE - Day_Ahead_Prices,Day_Ahead_Prices_PT60M,hourly,PAID,EMEA,ENTSOE,Pricing,DateTime,No,No
+ENTSOE - Forecasted_Day_Ahead_Transfer_Capacities,Forecasted_Day_Ahead_Transfer_Capacities_PT60M,hourly,PAID,EMEA,ENTSOE,Demand,DateTime,Yes,SRD -> i1000
+ENTSOE - Forecasted_Week_Ahead_Transfer_Capacities,Forecasted_Week_Ahead_Transfer_Capacities_P1D,daily,PAID,EMEA,ENTSOE,Demand,DateTime,Yes,SRD -> i1000
+NATIONAL_GRID - power_demand_demand_data_update,power_demand_demand_data_update,daily,UNPAID,EMEA,NATIONAL_GRID,demand,Date Time,Yes,SRD -> i1000
+NATIONAL_GRID - power_demand_forecast_day_ahead_demand_forecast,power_demand_forecast_day_ahead_demand_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,demand,Date Time,Yes,SRD -> i14
+NATIONAL_GRID - wind_power_forecast_14_days_ahead_wind_forecast,wind_power_forecast_14_days_ahead_wind_forecast,30-min,UNPAID,EMEA,NATIONAL_GRID,Wind Power Forecast,Datetime,Yes,SRD -> i14
+NATIONAL_GRID - wind_power_forecast_embedded_solar_and_wind_forecast,wind_power_forecast_embedded_solar_and_wind_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,Wind Power Forecast,Date Time,Yes,SRD -> i14
+NATIONAL_GRID - power_demand_2_14_days_half_hourly_forecast,power_demand_2_14_days_half_hourly_forecast,30-min,UNPAID,EMEA,NATIONAL_GRID,Demand,Date Time,Yes,SRD -> i14
+NATIONAL_GRID - power_demand_forecast_2_14_days_ahead_cardinal_point_forecast,power_demand_forecast_2_14_days_ahead_cardinal_point_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,Demand,Date Time,No,No
+ENTSOE - Unavailability_in_Transmission_Grid,Unavailability_in_Transmission_Grid_Active,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_in_Transmission_Grid,Unavailability_in_Transmission_Grid_Active,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_in_Transmission_Grid,Unavailability_in_Transmission_Grid_Cancelled,30-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_in_Transmission_Grid,Unavailability_in_Transmission_Grid_Cancelled,30-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_of_Production_Units,Unavailability_of_Production_Units_Active,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ENTSOE - Unavailability_of_Production_Units,Unavailability_of_Production_Units_Cancelled,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ENTSOE - Unavailability_of_Production_Units,Unavailability_of_Production_Units_Withdrawn,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ENTSOE - Unavailability_of_Offshore_Grid,Unavailability_of_Offshore_Grid_Active,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_of_Generation_Units_v1,Unavailability_of_Generation_Units_Active,1-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_of_Generation_Units_v1,Unavailability_of_Generation_Units_Cancelled,hourly,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Unavailability_of_Generation_Units_v1,Unavailability_of_Generation_Units_Withdrawn,daily,PAID,EMEA,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,No,No
+ENTSOE - Aggregated_Unavailability_of_Consumption_Units,Aggregated_Unavailability_of_Consumption_Units_PT15M,15-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+ENTSOE - Aggregated_Unavailability_of_Consumption_Units,Aggregated_Unavailability_of_Consumption_Units_PT60M,hourly,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+ENTSOE - Day_Ahead_Commercial_Schedules_Deleted,Day_Ahead_Commercial_Schedules_PT15M,15-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+ENTSOE - Day_Ahead_Commercial_Schedules_Deleted,Day_Ahead_Commercial_Schedules_PT60M,hourly,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+ENTSOE - Forecasted_Month_Ahead_Transfer_Capacities,Forecasted_Month_Ahead_Transfer_Capacities_P1D,daily,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,Yes,SRD -> i1000
+MERIT_INDIA - All_India_Power_Position,all_india_power_position,daily,UNPAID,APAC,MERIT_INDIA,Power Demand and Prices,ee_timestamp,Yes,No
+MERIT_INDIA - Marginal_Cost,marginal_cost,daily,UNPAID,APAC,MERIT_INDIA,Power Demand and Prices,ee_timestamp,No,No
+MERIT_INDIA - State_Wise_Details,state_wise_details,daily,UNPAID,APAC,MERIT_INDIA,Power Demand and Prices,ee_timestamp,Yes,No
+MERIT_INDIA - State_Wise_Demand_Met,state_wise_demand_met,daily,UNPAID,APAC,MERIT_INDIA,Power Demand and Prices,ee_timestamp,Yes,No
+Vidyut_Pravah,Vidyut_Pravah,15-min,UNPAID,APAC,Vidyut_Pravah,Power Demand,Timeblock_From,No,No
+ENTSOE - Day_Ahead_Total_Load_Forecast,Day_Ahead_Total_Load_Forecast_PT15M,15-min,PAID,EMEA,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+ENTSOE - Day_Ahead_Total_Load_Forecast,Day_Ahead_Total_Load_Forecast_PT30M,30-min,PAID,APAC,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+ENTSOE - Day_Ahead_Total_Load_Forecast,Day_Ahead_Total_Load_Forecast_PT60M,hourly,PAID,EMEA,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+PHILIPPINES-IEMOP - generator_weighted_average_pricing,generator_weighted_average_pricing,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand and Prices,ee_timestamp,Yes,No
+ENTSOE - Actual_Total_Load,Actual_Total_Load_PT15M,15-min,PAID,EMEA,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+ENTSOE - Actual_Total_Load,Actual_Total_Load_PT30M,30-min,PAID,EMEA,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+ENTSOE - Actual_Total_Load,Actual_Total_Load_PT60M,hourly,PAID,EMEA,ENTSOE,Load,DateTime,Yes,SRD -> i1000
+ENTSOE - Actual_Generation_by_Plant_Type,Actual_Generation_by_Plant_Type_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Actual_Generation_by_Plant_Type,Actual_Generation_by_Plant_Type_PT30M,30-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Actual_Generation_by_Plant_Type,Actual_Generation_by_Plant_Type_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Unit_level_Actual_Generation,Unit_level_Actual_Generation_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+ENTSOE - Unit_level_Actual_Generation,Unit_level_Actual_Generation_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+ENTSOE - Unit_level_Actual_Generation,Unit_level_Actual_Generation_PT30M,30-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+ENTSOE - Cross_Border_Physical_Flows,Cross_Border_Physical_Flows_PT15M,15-min,PAID,EMEA,ENTSOE,Transmission,DateTime,No,No
+ENTSOE - Cross_Border_Physical_Flows,Cross_Border_Physical_Flows_PT60M,hourly,PAID,EMEA,ENTSOE,Transmission,DateTime,No,No
+ENTSOE - Total_Load_Forecast_Week_Ahead,Total_Load_Forecast_Week_Ahead_P1D,daily,PAID,EMEA,ENTSOE,Load,DateTime,No,No
+ENTSOE - Generation_Forecast_Day_Ahead,Generation_Forecast_Day_Ahead_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+ENTSOE - Generation_Forecast_Day_Ahead,Generation_Forecast_Day_Ahead_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+ENTSOE - Generation_Forecast_Day_Ahead,Generation_Forecast_Day_Ahead_PT30M,30-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,Analysis (i14)
+PHILIPPINES-IEMOP - load_weighted_average_pricing_original,load_weighted_average_pricing_original,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand and Prices,ee_timestamp,Yes,No
+ERCOT - STATE_LINE_ESTIMATOR,STATE_LINE_ESTIMATOR,hourly,UNPAID,EMEA,ERCOT,Transmission,ee_timestamp,No,No
+ERCOT - HOURLY_RESOURCE_OUTAGE_CAPACITY,HOURLY_RESOURCE_OUTAGE_CAPACITY,hourly,UNPAID,EMEA,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - GENERIC_TRANSMISSION_LIMITS,GENERIC_TRANSMISSION_LIMITS,hourly,UNPAID,EMEA,ERCOT,Transmission,ee_timestamp,Yes,No
+ERCOT - STANDARD_CONTINGENCY_LIST,STANDARD_CONTINGENCY_LIST,hourly,UNPAID,EMEA,ERCOT,Generation,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SYSTEM_WIDE_DEMAND,SYSTEM_WIDE_DEMAND,15-min,UNPAID,EMEA,ERCOT,Real-Time Market,ee_timestamp,No,No
+ERCOT - DAM_SETTLEMENT_POINT_PRICES,DAM_SETTLEMENT_POINT_PRICES,hourly,UNPAID,EMEA,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+ERCOT - RTM_SCED_SHADOW_PRICES,RTM_SCED_SHADOW_PRICES,hourly,UNPAID,EMEA,ERCOT,Real-Time Market,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - DAM_WEATHER_ASSUMPTIONS,DAM_WEATHER_ASSUMPTIONS,hourly,UNPAID,EMEA,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+ERCOT - RTM_SYSTEM_LOAD_BY_WEATHER_ZONE,RTM_SYSTEM_LOAD_BY_WEATHER_ZONE,hourly,UNPAID,EMEA,ERCOT,Real-Time Market,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - REAL_TIME_DYNAMIC_RATING_DATA,REAL_TIME_DYNAMIC_RATING_DATA,15-min,UNPAID,EMEA,ERCOT,Real-Time Market,ee_timestamp,No,No
+ERCOT - FORECAST_TEMP_RATINGS,FORECAST_TEMP_RATINGS,hourly,UNPAID,EMEA,ERCOT,Transmission,ee_timestamp,No,No
+ERCOT - NODAL_DAM_LMP,NODAL_DAM_LMP,hourly,UNPAID,EMEA,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+ERCOT - Wind_Power_Production,Wind_Power_Production,hourly,UNPAID,EMEA,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - Ancillary_Service_Prices,Ancillary_Service_Prices,hourly,UNPAID,EMEA,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - Electric_Price_Nodal,Electric_Price_Nodal,hourly,UNPAID,EMEA,ERCOT,Generation,ee_timestamp,No,No
+NATIONAL_GRID - power_demand_forecast_2_day_ahead_demand_forecast,power_demand_forecast_2_day_ahead_demand_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,Power Demand Forecast,ee_timestamp,No,No
+NATIONAL_GRID - wind_power_forecast_day_ahead_wind_forecast,wind_power_forecast_day_ahead_wind_forecast,30-min,UNPAID,EMEA,NATIONAL_GRID,Wind Power Forecast,ee_timestamp,No,No
+NATIONAL_GRID - day_ahead_wind_forecast,day_ahead_wind_forecast,30-min,UNPAID,EMEA,NATIONAL_GRID,Generation_Forecast,Date Time,No,No
+NATIONAL_GRID - historic_day_ahead_wind_forecasts,historic_day_ahead_wind_forecasts,30-min,UNPAID,EMEA,NATIONAL_GRID,Generation_Forecast,Date Time,Yes,SRD -> i14
+NGI - mexico_daily_data,mexico_daily_data,daily,PAID,North America,NGI,Gas,issue_date,Yes,SRD -> NA_GAS_Insights
+NGI - gpi_daily_data,gpi_daily_data,daily,PAID,North America,NGI,Gas,Issue Date,Yes,SRD -> NA_GAS_Insights
+NGI - forward_look_data,forward_look_data,daily,PAID,North America,NGI,Gas,issue_date,Yes,SRD -> NA_GAS_Insights
+NGI - lng_insight_arb_curves_data,lng_insight_arb_curves_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NGI - lng_insight_des_prices_data,lng_insight_des_prices_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NGI - lng_insight_flow_data,lng_insight_flow_data,daily,PAID,North America,NGI,Gas,flow_date,No,No
+NGI - lng_insight_netback_data,lng_insight_netback_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NGI - lng_insight_shipping_costs_data,lng_insight_shipping_costs_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NGI - lng_insight_lopes_data,lng_insight_lopes_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NGI - lng_insight_vessel_rate_curves_data,lng_insight_vessel_rate_curves_data,daily,PAID,North America,NGI,Gas,ee_timestamp,No,No
+NATIONAL_GRID - historic_power_demand_forecast_day_ahead_demand_forecast,historic_power_demand_forecast_day_ahead_demand_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,Electric_Generation,Date Time,No,No
+NATIONAL_GRID - historic_power_demand_forcast_2_14_days_ahead_demand_forecast,historic_power_demand_forcast_2_14_days_ahead_demand_forecast,daily,UNPAID,EMEA,NATIONAL_GRID,Electric_Generation,Date Time,No,No
+ENTSOE - Day_Ahead_Commercial_Schedules,Day_Ahead_Commercial_Schedules_PT15M,15-min,PAID,EMEA,ENTSOE,Transmission,DateTime,No,No
+ENTSOE - Day_Ahead_Commercial_Schedules,Day_Ahead_Commercial_Schedules_PT60M,hourly,PAID,EMEA,ENTSOE,Transmission,DateTime,No,No
+ENTSOE - Day_ahead_Generation_Forecasts_Wind_Solar,Day_ahead_Generation_Forecasts_Wind_Solar_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Day_ahead_Generation_Forecasts_Wind_Solar,Day_ahead_Generation_Forecasts_Wind_Solar_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Day_ahead_Generation_Forecasts_Wind_Solar,Day_ahead_Generation_Forecasts_Wind_Solar_PT30M,30-min,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Current_Generation_Forecasts_Wind_Solar,Current_Generation_Forecasts_Wind_Solar_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,No,No
+ENTSOE - Current_Generation_Forecasts_Wind_Solar,Current_Generation_Forecasts_Wind_Solar_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,No,No
+ENTSOE - Installed_Generation_Capacity_Aggregated,Installed_Generation_Capacity_Aggregated_P1Y,daily,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,SRD -> i1000
+ENTSOE - Intraday_Generation_Forecasts_Wind_Solar,Intraday_Generation_Forecasts_Wind_Solar_PT15M,15-min,PAID,EMEA,ENTSOE,Generation,DateTime,No,No
+ENTSOE - Intraday_Generation_Forecasts_Wind_Solar,Intraday_Generation_Forecasts_Wind_Solar_PT60M,hourly,PAID,EMEA,ENTSOE,Generation,DateTime,No,No
+ARGUS - DENG,DENG,daily,PAID,EMEA,ARGUS,NATURAL_GAS,ee_timestamp,Yes,SRD -> i1000
+ARGUS - DNGA_INTRA,DNGA_INTRA,daily,PAID,EMEA,ARGUS,NATURAL_GAS,ee_timestamp,No,No
+ARGUS - DNGA_GENERAL,DNGA_GENERAL,daily,PAID,EMEA,ARGUS,NATURAL_GAS,ee_timestamp,No,No
+ARGUS - DLNGD,DLNGD,daily,PAID,EMEA,ARGUS,NATURAL_GAS,ee_timestamp,Yes,SRD -> i1000
+ERCOT - DC_TIES_FLOW,DC_TIES_FLOW,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,Yes,SRD -> ERCOT_CRR
+NATIONAL_GRID - historical_demand_data,power_demand_historical_demand_data,daily,UNPAID,EMEA,NATIONAL_GRID,Power Demand Forecast,ee_timestamp,Yes,SRD -> i1000
+ENTSOE - Total_Commercial_Schedules,Total_Commercial_Schedules_PT60M,hourly,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+ENTSOE - Total_Commercial_Schedules,Total_Commercial_Schedules_PT15M,15-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime,No,No
+NGI - forward_look_quarterly,forward_look_quarterly,daily,PAID,North America,NGI,Gas,date_timestamp,Yes,SRD -> Gas
+JAO - pre_final_computation,pre_final_computation,hourly,UNPAID,EMEA,JAO,Power Transmission,dateTimeUtc,Yes,SRD -> i1000
+ERCOT - HSL_WIND,HSL_WIND,hourly,UNPAID,North America,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - HSL_SOLAR,HSL_SOLAR,hourly,UNPAID,North America,ERCOT,Generation,ee_timestamp,No,No
+barchart,BASE,hourly,PAID,EMEA,BARCHART,Market data,ee_timestamp,Yes,SRD -> i14
+barchart,PEAK,hourly,PAID,EMEA,BARCHART,Market data,ee_timestamp,Yes,Analysis (i14)
+barchart,BARCHART_NYMEX,daily,PAID,EMEA,BARCHART,Market data,ee_timestamp,Yes,Analysis (i14)
+EPA - egrid_emissions,GEN21,daily,UNPAID,North America,EPA,Emissions,ee_timestamp,No,No
+EPA - egrid_emissions,UNT21,daily,UNPAID,North America,EPA,Emissions,ee_timestamp,Yes,No
+EPA - egrid_emissions,PLNT21,daily,UNPAID,North America,EPA,Emissions,ee_timestamp,No,No
+GSO Malaysia - generation,generation,10-min,UNPAID,APAC,GSO Malaysia,Generation,ee_timestamp,No,No
+GSO Malaysia - demand,demand,10-min,UNPAID,APAC,GSO Malaysia,Power Demand,ee_timestamp,No,No
+GSO Malaysia - solar,solar,10-min,UNPAID,APAC,GSO Malaysia,Generation,ee_timestamp,No,No
+GSO Malaysia - tieline,tieline,30-min,UNPAID,APAC,GSO Malaysia,Generation,ee_timestamp,No,No
+PHILIPPINES-IEMOP - generator_prices_and_offers,generator_prices_and_offers,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - day_ahead_demand,day_ahead_demand,hourly,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - generator_prices_offers,generator_prices_offers,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - market_clearing_price,market_clearing_price,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - security_limits,security_limits,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - reserve_offers,reserve_offers,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,Regulation_Up,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,Regulation_Down,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,Responsive_Reserve,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,Non_Spinning_Reserve,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,RRS_Table,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - ANCILLARY_SERVICE_REQUIREMENT,ECRS,hourly,UNPAID,North America,ERCOT,Reserves,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - Wind_Profile,Wind_Profile_Data,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - Wind_Profile,Operational_Planned_Unit_Codes,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - Wind_Profile,Hypothetical_Wind_Summary,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - LONG_TERM_DAILY_LOAD_FORECAST,Daily_Min,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,No,No
+ERCOT - LONG_TERM_DAILY_LOAD_FORECAST,Daily_Peak,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,No,No
+ERCOT - Dam_Complete_Current_Operating_Plan_Data,Dam_Complete_Current_Operating_Plan_Data,hourly,UNPAID,North America,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+ERCOT - WMWG,Solar_Power_Forecast,daily,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - WMWG,Wind_Power_Forecast,daily,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - HSL_Solar,HSL_Solar,hourly,UNPAID,North America,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - HSL_Wind,HSL_Wind,hourly,UNPAID,North America,ERCOT,Generation,ee_timestamp,No,No
+ERCOT - CRR_ESSP,CRR_ESSP,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+NATIONAL_GRID - wind_power_forecast_14_days_ahead_wind_forecast_v1,wind_power_forecast_14_days_ahead_wind_forecast_v1,30-min,UNPAID,North America,NATIONAL_GRID,Wind Power Forecast,Datetime,Yes,Analysis (i14)
+PJM - day_ahead_transmission_constraints,day_ahead_transmission_constraints,hourly,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+PJM - actual_schedule_summary_report,actual_schedule_summary_report,hourly,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+PJM - real_time_scheduled_interchange,real_time_scheduled_interchange,hourly,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+PJM - real_time_marginal_value,real_time_marginal_value,5-min,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+PJM - transfer_interface_information,transfer_interface_information,5-min,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+NYISO - day_ahead_lbmp_zonal,day_ahead_lbmp_zonal,hourly,UNPAID,North America,NYISO,Prices,ee_timestamp,No,No
+ERCOT - Long_Term_Daily_Load_Forecast_v1,Daily_Peak_Data,daily,UNPAID,North America,ERCOT,Load,ee_timestamp,No,No
+PJM - transmission_limits,transmission_limits,5-min,UNPAID,North America,PJM,Transmission,ee_timestamp,No,No
+ISONE - hourly_reserve_requirements,hourly_reserve_requirements,hourly,UNPAID,North America,ISONE,Ancillary Services,ee_timestamp,No,No
+CRR - hourly_load_forcast,hourly_load_forcast,hourly,UNPAID,North America,CRR,Transmission,ee_timestamp,No,No
+ERCOT - SSWG,SSWG_FALL_BUS_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_BUS_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_BUS_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_BUS_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_GENERATOR_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_GENERATOR_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_GENERATOR_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_GENERATOR_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_LOAD_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_LOAD_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_LOAD_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_LOAD_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_BRANCH_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL__BRANCH_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_BRANCH_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_BRANCH_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_BRANCH_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_SUBSTATION_NODE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_SUBSTATION_NODE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_SUBSTATION_NODE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_SUBSTATION_NODE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_SUBSTATION_DATA_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_SUBSTATION_DATA_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_SUBSTATION_DATA_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_SUBSTATION_DATA_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_SUBSTATION_SWITCHING_DEVICE_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - SSWG,SSWG_WINTER_SUBSTATION__SWITCHING_DEVICE_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_SUBSTATION_SWITCHING_DEVICE_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_SUBSTATION_SWITCHING_DEVICE_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_SUBSTATION_SWITCHING_DEVICE_BLOCK,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_TERMINAL_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_TERMINAL_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_TERMINAL_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_TERMINAL_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_WINTER_SYSTEM_SWITCHING_DEVICE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SUMMER_SYSTEM_SWITCHING_DEVICE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_SYSTEM_SWITCHING_DEVICE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_FALL_SYSTEM_SWITCHING_DEVICE_DATA,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - SSWG,SSWG_SPRING_SUBSTATION_NODE_DATA_V1,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+NYISO - gold_book_baseline_forecast,coincident_winter_peak_demand,daily,UNPAID,North America,NYISO,Generator,ee_timestamp,No,No
+NYISO - gold_book_baseline_forecast,coincident_summer_peak_demand,daily,UNPAID,North America,NYISO,Generator,ee_timestamp,No,No
+NYISO - gold_book_baseline_forecast,annual_energy_by_zone,daily,UNPAID,North America,NYISO,Generator,ee_timestamp,No,No
+CAISO - transmission_outages,transmission_outages,hourly,UNPAID,North America,CAISO,Transmission,ee_timestamp,No,No
+CAISO - energy_prices_lmp,energy_prices_lmp,hourly,UNPAID,North America,CAISO,Prices,ee_timestamp,No,No
+NATIONAL_GRID - wind_power_forecast_14_days_ahead_unit_level,wind_power_forecast_14_days_ahead_unit_level,30-min,UNPAID,North America,NATIONAL_GRID,Wind Power Forecast,ee_timestamp,No,No
+WECC - regional_historical_demand,regional_historical_demand,hourly,UNPAID,North America,WECC,Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+IESO - Realtime_Shadow_Prices,Realtime_Shadow_Prices,hourly,UNPAID,North America,IESO,Prices,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+EIA - STEO-DATA,STEO-DATA,daily,UNPAID,North America,EIA,Outlook,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - DAM_CURRENT_OPERATING_PLAN_ALL_UPDATES,DAM_CURRENT_OPERATING_PLAN_ALL_UPDATES,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+PJM - day_ahead_hourly_lmp,day_ahead_hourly_lmp,hourly,UNPAID,North America,PJM,Prices,ee_timestamp,No,No
+EPA - CSAPR,allocations_deductions_program,daily,UNPAID,North America,CSAPR,Emissions,ee_timestamp,Yes,No
+EPA - CSAPR,Allocations_Deductions_State,daily,UNPAID,North America,CSAPR,Emissions,ee_timestamp,Yes,No
+EPA - CSAPR,price_volume,daily,UNPAID,North America,CSAPR,Emissions,ee_timestamp,No,No
+EPA - CSAPR,volume_deductions,daily,UNPAID,North America,CSAPR,Emissions,ee_timestamp,No,No
+ERCOT - CRR,Area_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,No
+ERCOT - CRR,Branch_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,No
+ERCOT - CRR,Bus_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - CRR,Generator_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Impedance_correction_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Load_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - CRR,Monthly_Auction_Contingencies,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - CRR,Monthly_Auction_DynamicRatings,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,Analysis 
+ERCOT - CRR,Monthly_Auction_MonitoredLinesAndTransformers,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Monitored_Lines_And_Transformers,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Non_ThermalConstraints,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Sources_Sinks,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,No
+ERCOT - CRR,Owner_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Transformer_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,No
+ERCOT - CRR,Zone_data,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Outages,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Mapping_Autos,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Mapping_Lines,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Mapping_Document_Lines,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - CRR,Monthly_Auction_Mapping_Document_Autos,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - rtp_economic_start_cases,rtp_economic_start_cases,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+MISOENERGY - day_ahead_prices,day_ahead_prices_details,hourly,UNPAID,North America,MISOENERGY,Prices,ee_timestamp,No,No
+MISOENERGY - day_ahead_prices,day_ahead_prices_summary,daily,UNPAID,North America,MISOENERGY,Prices,ee_timestamp,No,No
+EIA Cost and Quality of Fossil Fuels - electric_utilities,electric_utilities,daily,UNPAID,North America,EIA,Commodity,ee_timestamp,No,No
+EIA Cost and Quality of Fossil Fuels - independent_power_producers,independent_power_producers,daily,UNPAID,North America,EIA,Commodity,ee_timestamp,No,No
+WECC - camx_ba_historical_demand,camx_ba_historical_demand,hourly,UNPAID,North America,WECC,Demand,ee_timestamp,No,No
+WECC - dsw_ba_historical_demand,dsw_ba_historical_demand,hourly,UNPAID,North America,WECC,Demand,ee_timestamp,No,No
+WECC - nwpp_ne_ba_historical_demand,nwpp_ne_ba_historical_demand,hourly,UNPAID,North America,WECC,Demand,ee_timestamp,No,No
+WECC - nwpp_cen_ba_historical_demand,nwpp_cen_ba_historical_demand,hourly,UNPAID,North America,WECC,Demand,ee_timestamp,No,No
+SPP - da_lmp_by_location,da_lmp_by_location,hourly,UNPAID,North America,SPP,Prices,ee_timestamp,No,No
+ISONE - hourly_da_lmp,hourly_da_lmp,hourly,UNPAID,North America,ISONE,Prices,ee_timestamp,No,No
+ISONE - real_time_actual_scheduled_interchange,real_time_actual_scheduled_interchange,hourly,UNPAID,North America,ISONE,Transmission,ee_timestamp,No,No
+IESO - Hourly_Ontario_Energy_Price,Hourly_Ontario_Energy_Price,hourly,UNPAID,North America,IESO,Prices,ee_timestamp,No,No
+IESO - Predispatch_Shadow_Prices_Report,Predispatch_Shadow_Prices_Report,hourly,UNPAID,North America,IESO,Prices,ee_timestamp,No,No
+IESO - Day_ahead_shadow_Prices_report,Day_ahead_shadow_Prices_report,hourly,UNPAID,North America,IESO,Prices,ee_timestamp,No,No
+NYISO - ancillary_service_prices,ancillary_service_prices,hourly,UNPAID,North America,NYISO,Ancillary Services,ee_timestamp,No,No
+IESO - Nodal_Prices,Nodal_Prices,hourly,UNPAID,North America,IESO,Prices,ee_timestamp,Yes,No
+EIA - electric_generator_inventory_EIA860M,Operating,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Planned,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Planned_PR,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Operating_PR,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Canceled_or_Postponed,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Retired,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+EIA - electric_generator_inventory_EIA860M,Retired_PR,daily,UNPAID,North America,EIA,Generator,Publish_timestamp,No,No
+ISONE - ttc_tables,ttc_tables,hourly,UNPAID,North America,ISONE,Transmission,ee_timestamp,No,No
+NYISO - internal_external_transmission_interface_limits_flows,internal_external_transmission_interface_limits_flows,1-min,UNPAID,North America,NYISO,Transmission,ee_timestamp,No,No
+ERCOT - GRID_Timeseries_Format,Data_Dictionary,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,No,No
+ERCOT - GRID_Timeseries_Data,Data_Dictionary,hourly,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - Long_Term_Daily_Load_Forecast_Updated,Daily_Mins_Data,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - Long_Term_Daily_Load_Forecast_Updated,Daily_Peak_Data,daily,UNPAID,North America,ERCOT,Load,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ENTSOE - Forecasted_Year_Ahead_Transfer_Capacities,Forecasted_Year_Ahead_Transfer_Capacities_P1M,daily,PAID,North America,ENTSOE,Electric Generation & Transmission,ee_timestamp,No,No
+ENTSOE - Forecasted_Year_ahead_Transfer_Capacities_v1,Forecasted_Year_ahead_Transfer_Capacities_v1_P1M,daily,PAID,North America,ENTSOE,Electric Generation & Transmission,DateTime,Yes,SRD -> i1000
+AIOLOS - short_day_ahead_load,short_day_ahead_load,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,SRD -> i14
+AIOLOS - short_day_ahead_solar,short_day_ahead_solar,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,SRD -> i14
+AIOLOS - short_day_ahead_wind,short_day_ahead_wind,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,SRD -> i14
+AIOLOS - long_actual_load,long_actual_load,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+AIOLOS - long_actual_solar,long_actual_solar,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+AIOLOS - long_actual_wind,long_actual_wind,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+AIOLOS - long_day_ahead_load,long_day_ahead_load,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+AIOLOS - long_day_ahead_solar,long_day_ahead_solar,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+AIOLOS - long_day_ahead_wind,long_day_ahead_wind,hourly,UNPAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,No,No
+USNRC - NRC_Power_Reactor_Status,NRC_Power_Reactor_Status,daily,UNPAID,North America,USNRC,Generator,ee_timestamp,No,No
+JAO - initial_computation,initial_computation,hourly,UNPAID,EMEA,JAO,Power Transmission,dateTimeUtc,Yes,SRD -> i1000
+ERCOT - MORA_Timeseries_Format,MORA_Timeseries_Format,daily,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD -> ERCOT_CRR
+EIA - NATURAL-GAS-FUT-DAILY,NATURAL-GAS-FUT-DAILY,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-FUT-WEEKLY,NATURAL-GAS-FUT-WEEKLY,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-SUM-MONTHLY,NATURAL-GAS-SUM-MONTHLY,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-FUT-MONTHLY,NATURAL-GAS-FUT-MONTHLY,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-LSUM-MONTHLY,NATURAL-GAS-LSUM-MONTHLY,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-FUT-ANNUAL,NATURAL-GAS-FUT-ANNUAL,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-LSUM-ANNUAL,NATURAL-GAS-LSUM-ANNUAL,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - NATURAL-GAS-SUM-ANNUAL,NATURAL-GAS-SUM-ANNUAL,daily,UNPAID,North America,EIA,natural-gas,ee_timestamp,No,No
+EIA - PETROLEUM-FUT-DAILY,PETROLEUM-FUT-DAILY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-FUT-WEEKLY,PETROLEUM-FUT-WEEKLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-FUT-MONTHLY,PETROLEUM-FUT-MONTHLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-FUT-ANNUAL,PETROLEUM-FUT-ANNUAL,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-WFR-WEEKLY,PETROLEUM-WFR-WEEKLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-WFR-MONTHLY,PETROLEUM-WFR-MONTHLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-RESID-MONTHLY,PETROLEUM-RESID-MONTHLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-RESID-ANNUAL,PETROLEUM-RESID-ANNUAL,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-DIST-MONTHLY,PETROLEUM-DIST-MONTHLY,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - PETROLEUM-DIST-ANNUAL,PETROLEUM-DIST-ANNUAL,daily,UNPAID,North America,EIA,petroleum,ee_timestamp,No,No
+EIA - NUCLEAR-OUTAGES-US-NUCLEAR-OUTAGES,NUCLEAR-OUTAGES-US-NUCLEAR-OUTAGES,daily,UNPAID,North America,EIA,nuclear-outages,ee_timestamp,No,No
+EIA - NUCLEAR-OUTAGES-FACILITY-NUCLEAR-OUTAGES,NUCLEAR-OUTAGES-FACILITY-NUCLEAR-OUTAGES,daily,UNPAID,North America,EIA,nuclear-outages,ee_timestamp,No,No
+EIA - ELECTRICITY-ELECTRIC-POWER-OPERATIONAL-DATA,ELECTRICITY-ELECTRIC-POWER-OPERATIONAL-DATA,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+ERCOT - Dam_Complete_Current_Operating_Plan_Data_v1,Dam_Complete_Current_Operating_Plan_Data_v1,hourly,UNPAID,North America,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+EIA - ELECTRICITY-OPERATING-GENERATOR-CAPACITY,ELECTRICITY-OPERATING-GENERATOR-CAPACITY,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-FACILITY-FUEL,ELECTRICITY-FACILITY-FUEL,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-REGION-DATA,ELECTRICITY-REGION-DATA,hourly,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-FUEL-TYPE-DATA,ELECTRICITY-FUEL-TYPE-DATA,hourly,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-REGION-SUB-BA-DATA,ELECTRICITY-REGION-SUB-BA-DATA,hourly,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-INTERCHANGE-DATA,ELECTRICITY-INTERCHANGE-DATA,hourly,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-EMISSIONS-BY-STATE-BY-FUEL,ELECTRICITY-EMISSIONS-BY-STATE-BY-FUEL,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+JAO - final_computation,final_computation,hourly,UNPAID,EMEA,JAO,Power Transmission,dateTimeUtc,Yes,SRD -> i1000
+TERNA - Produzione_termoelettrica,Produzione_termoelettrica,daily,UNPAID,EMEA,TERNA,Generation,ee_timestamp,No,No
+TERNA - Produzione_indrica,Produzione_indrica,daily,UNPAID,EMEA,TERNA,Generation,ee_timestamp,No,No
+TERNA - Produzione_fonti_rinnovabili,Produzione_fonti_rinnovabili,daily,UNPAID,EMEA,TERNA,Generation,ee_timestamp,No,No
+TERNA - capacita_fonti_rinnovabili,capacita_fonti_rinnovabili,daily,UNPAID,EMEA,TERNA,Renewable Energy Capacity,ee_timestamp,No,No
+TERNA - capacita_impianti_di_generazione,capacita_impianti_di_generazione,daily,UNPAID,EMEA,TERNA,Generation,ee_timestamp,No,No
+TERNA - capacita_termoelecttrica,capacita_termoelecttrica,daily,UNPAID,EMEA,TERNA,Thermal Power Capacity,ee_timestamp,No,No
+TERNA - Domanda_copertura_della_domanda_per_fonte,Domanda_copertura_della_domanda_per_fonte,daily,UNPAID,EMEA,TERNA,Demand,ee_timestamp,No,No
+PHILIPPINES-IEMOP - rtd_regional_reserve_prices,rtd_regional_reserve_prices,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - dap_regional_reserve_prices,dap_regional_reserve_prices,hourly,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - dap_regional_summaries,dap_regional_summaries,hourly,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - dap_hvdc_schedules,dap_hvdc_schedules,hourly,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - security_limits_used_in_dap,security_limits_used_in_dap,1-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - rtd_hvdc_schedules,rtd_hvdc_schedules,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - outage_schedules,outage_schedules,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+PHILIPPINES-IEMOP - regional_merit_order_table_mot_files,regional_merit_order_table_mot_files,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+EIA - COAL-PRICE-BY-RANK,COAL-PRICE-BY-RANK,daily,UNPAID,North America,EIA,coal,ee_timestamp,No,No
+EIA - DENSIFIED-BIOMASS-PRODUCTION-BY-REGION,DENSIFIED-BIOMASS-PRODUCTION-BY-REGION,daily,UNPAID,North America,EIA,densified-biomass,ee_timestamp,No,No
+EIA - DENSIFIED-BIOMASS-CAPACITY-BY-REGION,DENSIFIED-BIOMASS-CAPACITY-BY-REGION,daily,UNPAID,North America,EIA,densified-biomass,ee_timestamp,No,No
+EIA - ELECTRICITY-CAPABILITY,ELECTRICITY-CAPABILITY,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-DAILY-FUEL-TYPE-DATA,ELECTRICITY-DAILY-FUEL-TYPE-DATA,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-DAILY-INTERCHANGE-DATA,ELECTRICITY-DAILY-INTERCHANGE-DATA,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-DAILY-REGION-DATA,ELECTRICITY-DAILY-REGION-DATA,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - ELECTRICITY-DAILY-REGION-SUB-BA-DATA,ELECTRICITY-DAILY-REGION-SUB-BA-DATA,daily,UNPAID,North America,EIA,electricity,ee_timestamp,No,No
+EIA - NUCLEAR-OUTAGES-GENERATOR-NUCLEAR-OUTAGES,NUCLEAR-OUTAGES-GENERATOR-NUCLEAR-OUTAGES,daily,UNPAID,North America,EIA,nuclear-outages,ee_timestamp,No,No
+ELEXON - generation_by_fuel_type_24_h_instant_data_v1,generation_by_fuel_type_24_h_instant_data_v1,5-min,PAID,North America,ELEXON,Generation,Date Time,No,No
+ELEXON - day_ahead_total_load_forecast_per_bidding_zone_v1,day_ahead_total_load_forecast_per_bidding_zone_v1,daily,PAID,North America,ELEXON,Electric Generation & Transmission,Date Time,Yes,SRD -> i1000
+ELEXON - actual_generation_output_per_generation_unit_v1,actual_generation_output_per_generation_unit_v1,daily,PAID,EMEA,ELEXON,Generation,Date Time,Yes,Analysis
+ENTSOG - Physical_flows,Physical_flows,hourly,UNPAID,EMEA,ENTSOG,Gas flows,ee_timestamp,No,No
+National_Gas - demand,demand,daily,UNPAID,EMEA,National_Gas,Gas,ee_timestamp,No,No
+ELEXON - actual_aggregated_generation_per_type_v1,actual_aggregated_generation_per_type_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,ee_timestamp,Yes,No
+NYISO - day_ahead_market_lbmp_generator,day_ahead_market_lbmp_generator,hourly,UNPAID,North America,NYISO,prices,ee_timestamp,No,No
+NYISO - zonal_load_commitment,zonal_load_commitment,hourly,UNPAID,North America,NYISO,load,ee_timestamp,No,No
+PJM - da_interface_flow_n_limit,da_interface_flow_n_limit,hourly,UNPAID,North America,PJM,interface flows,ee_timestamp,No,No
+PJM - generation_by_fuel_type,generation_by_fuel_type,hourly,UNPAID,North America,PJM,generation,ee_timestamp,No,No
+PJM - historical_load_forecasts,historical_load_forecasts,hourly,UNPAID,North America,PJM,load,ee_timestamp,No,No
+PECD - PECD_demand,PECD_demand,hourly,UNPAID,EMEA,PECD,climate demand,ee_timestamp,No,No
+PECD - PECD_hydro,Hydro_YearDependent,daily,UNPAID,EMEA,PECD,climate demand,ee_timestamp,No,No
+PECD - PECD_hydro,Hydro_MarketNodeInfo,daily,UNPAID,EMEA,PECD,climate demand,ee_timestamp,No,No
+PECD - PECD_hydro,Hydro_Uniform,daily,UNPAID,EMEA,PECD,climate demand,ee_timestamp,No,No
+PECD - PECD_renewable,PECD_renewable,hourly,UNPAID,EMEA,PECD,climate demand,ee_timestamp,No,No
+ELEXON - year_ahead_total_load_forecast_per_bidding_zone_v1,year_ahead_total_load_forecast_per_bidding_zone_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,Date Time,No,No
+ELEXON - week_ahead_total_load_forecast_per_bidding_zone_v1,week_ahead_total_load_forecast_per_bidding_zone_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,Date Time,No,No
+ELEXON - month_ahead_total_load_forecast_per_bidding_zone_v1,month_ahead_total_load_forecast_per_bidding_zone_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,Date Time,No,No
+ELEXON - balancing_bid_offer_data,physical_data,1-min,PAID,EMEA,ELEXON,Prices,ee_timestamp,No,No
+ELEXON - balancing_bid_offer_data,physical_data,1-min,PAID,EMEA,ELEXON,Prices,ee_timestamp,No,No
+ELEXON - balancing_bid_offer_data,bid_offer_acceptance_data,30-min,PAID,EMEA,ELEXON,Prices,ee_timestamp,No,No
+ELEXON - balancing_bid_offer_data,bid_offer_acceptance_data,30-min,PAID,EMEA,ELEXON,Prices,ee_timestamp,No,No
+ELEXON - actual_total_load_per_bidding_zone_v1,actual_total_load_per_bidding_zone_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,Date Time,Yes,SRD -> i1000
+ELEXON - installed_generation_capacity_aggregated_v1,installed_generation_capacity_aggregated_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,Date Time,Yes,No
+ELEXON - installed_generation_capacity_per_unit_v1,installed_generation_capacity_per_unit_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,dynamic_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,dynamic_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,physical_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,physical_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,bid_offer_acceptance_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - Physical_data_Power_plant_real_time_limits_on_generation,bid_offer_acceptance_data,1-min,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+PJM - real_time_hourly_prices,real_time_hourly_prices,hourly,UNPAID,North America,PJM,Prices,ee_timestamp,No,No
+EIA - AEO-DATA,AEO-DATA,daily,UNPAID,North America,EIA,Outlook,ee_timestamp,No,No
+EIA - EIA_923,Boiler_Fuel_Data_v1,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Energy_Storage,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Generation_Fuel_Consumption_v1,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Generator_Data_v1,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Boiler_Fuel_Data,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Boiler_Fuel_Data_v2,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+EIA - EIA_923,Boiler_Fuel_Data_v3,daily,UNPAID,North America,EIA,Generation,ee_timestamp,No,No
+NGI - lng_insight_landed_prices_data_v1,lng_insight_landed_prices_data_v1,daily,PAID,North America,NGI,gas,ee_timestamp,No,No
+NGI - lng_insight_landed_costs_data_v1,lng_insight_landed_costs_data_v1,daily,PAID,North America,NGI,gas,ee_timestamp,No,No
+SPP - day-ahead-lmp-by-bus,day-ahead-lmp-by-bus,hourly,UNPAID,North America,SPP,Prices,ee_timestamp,No,No
+SPP - binding-constraints,binding-constraints,hourly,UNPAID,North America,SPP,Transmission Lines,ee_timestamp,No,No
+SPP - generation-mix-historical,generation-mix-historical,5-min,UNPAID,North America,SPP,Generation,ee_timestamp,No,No
+SPP - real-time-lmp-by-bus,real-time-lmp-by-bus,5-min,UNPAID,North America,SPP,Prices,ee_timestamp,No,No
+SPP - real-time-lmp-by-location,real-time-lmp-by-location,5-min,UNPAID,North America,SPP,Prices,ee_timestamp,No,No
+ERCOT - capacity_changes_chart,capacity_changes_chart,daily,UNPAID,North America,ERCOT,Electric,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - Unplanned_Resource_Outages_Report_v1,Unplanned_Resource_Outages_Report_v1,daily,UNPAID,North America,ERCOT,Generator Outages,ee_timestamp,Yes,SRD->ERCOT_CRR
+PECD - PECD_demand_BAT_EV_HP,PECD_demand_BAT_EV_HP,hourly,UNPAID,EMEA,PECD,Climate Demand,ee_timestamp,No,No
+AGSI - storage_end_volume,storage_end_volume_v2,daily,UNPAID,EMEA,AGSI,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+PECD - PECD_renewable_v1,PECD_renewable_v1,hourly,UNPAID,EMEA,PECD,Gas,ee_timestamp,No,No
+ERCOT - DAM_SETTLEMENT_POINT_PRICES_V1,DAM_SETTLEMENT_POINT_PRICES_V1,hourly,UNPAID,EMEA,ERCOT,Day-Ahead Market,ee_timestamp,Yes,SRD->ERCOT_CRR
+MISOENERGY - hist_hourly_wind_data,hist_hourly_wind_data,hourly,UNPAID,North America,MISOENERGY,Generation,ee_timestamp,No,No
+MISOENERGY - hist_generation_fuel_mix,hist_generation_fuel_mix,hourly,UNPAID,North America,MISOENERGY,Generation,ee_timestamp,No,No
+MISOENERGY - hist_daily_forecast_n_actual_load,hist_daily_forecast_n_actual_load,hourly,UNPAID,North America,MISOENERGY,Demand,ee_timestamp,No,No
+MISOENERGY - da_exante_lmp,da_exante_lmp,hourly,UNPAID,North America,MISOENERGY,Prices,ee_timestamp,No,No
+MISOENERGY - real_time_prices,real_time_prices,hourly,UNPAID,North America,MISOENERGY,Prices,ee_timestamp,No,No
+MISOENERGY - generation_fuel_mix,DA Cleared Generation Fuel Mix,hourly,UNPAID,North America,MISOENERGY,Generation,ee_timestamp,No,No
+MISOENERGY - generation_fuel_mix,RT Generation Fuel Mix,hourly,UNPAID,North America,MISOENERGY,Generation,ee_timestamp,No,No
+MISOENERGY - daily_forecast_n_actual_load,actual,hourly,UNPAID,North America,MISOENERGY,Demand,ee_timestamp,No,No
+MISOENERGY - daily_forecast_n_actual_load,forecast,hourly,UNPAID,North America,MISOENERGY,Demand,ee_timestamp,No,No
+ERCOT - Solar_Profile_v1,Solar_Profile_Data_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - Solar_Profile_v1,Metadata_Solar_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - Solar_Profile_v1,Utility_Operational_Planned_Data_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,No
+ERCOT - Solar_Profile_v1,Utility_Operational_Planned_Data_v2,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,No
+ERCOT - Wind_Profile_v1,Operational_Planned_Unit_Codes_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - Wind_Profile_v1,Wind_Profile_Data_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+ERCOT - Wind_Profile_v1,Metadata_Wind_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - Wind_Profile_v1,Metadata_Wind_v2,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD->ERCOT_CRR
+CORES - spain_natural_gas_production,spain_natural_gas_production,daily,UNPAID,EMEA,CORES,Natural Gas,ee_timestamp,No,No
+ENTSOE - Unavailability_of_Generation_Units,Unavailability_of_Generation_Units_Active,1-min,PAID,North America,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ENTSOE - Unavailability_of_Generation_Units,Unavailability_of_Generation_Units_Cancelled,1-min,PAID,North America,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ENTSOE - Unavailability_of_Generation_Units,Unavailability_of_Generation_Units_Withdrawn,1-min,PAID,North America,ENTSOE,Electric Generation & Transmission,StartOutage_UTC,Yes,SRD -> i1000
+ERCOT - HYPOTHETICAL_SOLAR_PROFILES_v1,Utility_Hypothetical_Solar_Profile_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,No
+ERCOT - HYPOTHETICAL_SOLAR_PROFILES_v1,Hypothetical_solar_profile_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - HYPOTHETICAL_WIND_PROFILES_v1,Hypothetical_wind_profile_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - HYPOTHETICAL_WIND_PROFILES_v1,Hypothetical_Wind_Summary_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - HYPOTHETICAL_WIND_PROFILES_v1,Metadata_Hypothetical_Wind_v1,hourly,UNPAID,North America,ERCOT,Generator,ee_timestamp,No,No
+NLOG - netherland_indigenous_gas_production,netherland_indigenous_gas_production,daily,UNPAID,EMEA,NLOG,Gas,ee_timestamp,No,No
+EIA - coal_electricity_generation_by_state,coal_electricity_generation_by_state,daily,UNPAID,North America,EIA,Commodity,ee_timestamp,Yes,No
+IEX - day_ahead_market_area_prices,day_ahead_market_area_prices,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,Yes,No
+IEX - day_ahead_market_area_volumes,day_ahead_market_area_volumes,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,Yes,No
+IEX - real_time_market_area_volume,real_time_market_area_volume,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,Yes,No
+IEX - real_time_market_snapshot,real_time_market_snapshot,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,Yes,No
+IEX - day_ahead_market_snapshot,day_ahead_market_snapshot,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,Yes,No
+IEX - real_time_market_area_prices,real_time_market_area_prices,15-min,UNPAID,APAC,IEX,Prices,ee_timestamp,No,No
+NCEP_NOAA - usa_monthly_degree_days_forecasts,usa_monthly_degree_days_forecasts,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+IEX - day_ahead_market_aggregated_demand_supply_curves,day_ahead_market_aggregated_demand_supply_curves,15-min,UNPAID,APAC,IEX,Demand,ee_timestamp,Yes,No
+IEX - real_time_market_area_price,real_time_market_area_price,15-min,UNPAID,APAC,IEX,Price,ee_timestamp,Yes,No
+NCEP_NOAA - weighted_legacy_files_statesconus_cooling,weighted_legacy_files_statesconus_cooling,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,No,No
+NCEP_NOAA - weighted_legacy_files_statesconus_heating,weighted_legacy_files_statesconus_heating,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,No,No
+NCEP_NOAA - weighted_daily_data_statesconus_cooling,weighted_daily_data_statesconus_cooling,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NCEP_NOAA - weighted_daily_data_statesconus_heating,weighted_daily_data_statesconus_heating,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NCEP_NOAA - weighted_daily_forecasts_7day_heating,weighted_daily_forecasts_7day_heating,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NCEP_NOAA - weighted_daily_forecasts_7day_cooling,weighted_daily_forecasts_7day_cooling,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NCEP_NOAA - daily_by_station_cooling_heating,daily_by_station_cooling_heating,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NCEP_NOAA - temperature_warm_cold_us_by_month,temperature_warm_cold_us_by_month,daily,UNPAID,North America,NCEP_NOAA,Weather,ee_timestamp,No,No
+IEX - real_time_market_aggregated_demand_supply_curves,real_time_market_aggregated_demand_supply_curves,15-min,UNPAID,APAC,IEX,Demand,ee_timestamp,Yes,No
+SPP - market-clearing-price,market-clearing-price,5-min,UNPAID,North America,SPP,Prices,ee_timestamp,No,No
+NA_GAS - US_DEMAND,US_DEMAND,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - CANADA_DEMAND,CANADA_DEMAND,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+ERCOT - SP_LIST_ELECTRICAL_BUS_MAPPING,CCP_Resource_Names,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,No,No
+ERCOT - SP_LIST_ELECTRICAL_BUS_MAPPING,Hub_Name_AND_DC_Ties,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - SP_LIST_ELECTRICAL_BUS_MAPPING,NOIE_Mapping,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,No,No
+ERCOT - SP_LIST_ELECTRICAL_BUS_MAPPING,Resource_Node_to_Unit,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - SP_LIST_ELECTRICAL_BUS_MAPPING,Settlement_Points,hourly,UNPAID,North America,ERCOT,Transmission,ee_timestamp,No,No
+ERCOT - Intertek_data,Intertek_data,hourly,UNPAID,North America,ERCOT,Prices,ee_timestamp,No,No
+CEA - daily_renewable_generation_report,daily_renewable_generation_report,daily,UNPAID,APAC,CEA,Generation,ee_timestamp,Yes,No
+EUROSTAT - SUPPLY_TRANSFORMATION_CONSUMPTION_GAS_MONTHLY,SUPPLY_TRANSFORMATION_CONSUMPTION_GAS_MONTHLY,daily,UNPAID,EMEA,EUROSTAT,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+POSOCO - green_day_ahead_market,green_day_ahead_market,daily,UNPAID,APAC,POSOCO,Generation,ee_timestamp,No,No
+JAPAN_COAL - coal_fired_power_plant,coal_fired_power_plant,daily,UNPAID,APAC,coal_fired_power_plant,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+NITI_AYOG_climate_and_environment_temperature,climate_and_environment_temperature,daily,UNPAID,APAC,climate_and_environment_temperature,Climate,ee_timestamp,Yes,No
+NA_GAS - Canada_Power_Industrial_Weights,Canada_Power_Industrial_Weights,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - EIA_Demand_Mapping_Data,EIA_Demand_Mapping_Data,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+EUROSTAT - SUPPLY_TRANSFORMATION_CONSUMPTION_GAS_YEARLY,SUPPLY_TRANSFORMATION_CONSUMPTION_GAS_YEARLY,daily,UNPAID,EMEA,EUROSTAT,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+JAPAN - SOLAR_WIND_CAPACITY,Target_power_outage_amount_capacity_market_supply_plan_2_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,annual_EUE_calculation_results_2_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supplementary_confirmation_reserve_margin_forecast_Okinawa_2_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supplementary_confirmation_reserve_margin_forecast_Okinawa_next_year_2_6,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,thermal_power_sources_to_be_suspended_or_discontinued_2_7,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,difference_between_electric_supply_and_demand_2_8,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_capacity_by_energy_source_2_6,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,increase_decrease_monthly_repair_volume_supply_plan_2_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,electricity_balance_in_first_fiscal_year_2_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,status_of_thermal_power_plants_out_of_service_2_7,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,equipment_capacity_nation_wide_3_1,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,capacity_ratio_by_power_source_type_area_3_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,changes_in_solar_wind_power_capacity_by_area_3_3,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,changes_in_capacity_3_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,percentage_of_electricity_generation_transmission_end_3_6,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,trends_in_facility_utilization_rates_nationwide_total_3_7,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,aging_distribution_of_steel_towers_4_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,aging_distribution_of_transformers_4_3,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,ratio_of_power_traded_outside_area_to_electricity_demand_5_1_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,ratio_of_electric_traded_outside_area_to_electricity_demand_5_3_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,aging_distribution_of_concrete_poles_4_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,electric_trading_outside_area_5_3_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,power_trading_outside_area_5_1_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,electricity_demand_accumulated_by_business_scale_6_1_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,retail_electricity_suppliers_by_business_size_6_1_2,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,number_of_retail_electricity_suppliers_by_business_size_6_3_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,energy_demand_accumulated_by_business_size_6_3_4,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,number_of_retail_electricity_suppliers_operating_each_area_6_7,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,secured_supply_capacity_retail_electricity_suppliers_6_8,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,number_of_power_generation_companies_by_business_scale_6_9_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,total_power_supply_by_business_scale_6_9_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,number_of_power_generation_companies_by_business_scale_6_11_12,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,electricity_supply_volume_accumulated_by_business_scale_6_11_12,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,number_of_power_generation_companies_operating_each_area_6_16,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,No,No
+JAPAN - SOLAR_WIND_CAPACITY,electricity_demand_forecast_1_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,okinawa_supply_demand_balance_1_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,reserve_supply_margin_1_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_capacity_forecast_1_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_capacity_transfer_forecast_1_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,electricity_demand_forecast_1_6_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,okinawa_supply_demand_balance_1_6_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,reserve_supply_margin_1_6_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_capacity_forecast_1_6_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_capacity_transfer_forecast_1_6_10,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,long_term_electricity_demand_outlook_aug_2_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,long_term_electricity_demand_outlook_jan_2_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,long_term_supply_capacity_outlook_aug_2_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,long_term_supply_capacity_outlook_jan_2_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,supply_demand_balance_okinawa_2_1_5,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,power_generation_companies_operating_each_area_6_16,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - SOLAR_WIND_CAPACITY,monthly_repair_volume_supply_plan_2_3,daily,UNPAID,APAC,JAPAN,Capacity,ee_timestamp,Yes,SRD->Japan Dataset
+NPP - monthly_generation_reports,unit_wise_monthly_generation,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - monthly_generation_reports,monthly_gas_based_generation,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - daily_generation_report,plant_wise_generation_report,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - daily_generation_report,utility_wise_generation_report,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - daily_generation_report,hydro_reservoir_levels,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - daily_generation_report,outage_report_thermal,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NPP - daily_generation_report,category_wise_generation,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+TRADING_HUB_EUROPE - aggregated_consumption_data,aggregated_consumption_data,daily,UNPAID,EMEA,TRADING_HUB_EUROPE,Gas,ee_timestamp,No,No
+AGSI - alsi_lng_inventory,alsi_lng_inventory,daily,UNPAID,EMEA,AGSI,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+CEA_NIC_API - power_supply_position_energy,power_supply_position_energy,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - electrical_energy_sales,electrical_energy_sales,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - power_generation,power_generation,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - power_supply_position_peak,power_supply_position_peak,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - renewable_energy,renewable_energy,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - transformation_capacity,transformation_capacity,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+CEA_NIC_API - transmission_lines,transmission_lines,daily,UNPAID,APAC,CEA_NIC_API,Generation,ee_timestamp,Yes,No
+NA_GAS - us_supply_dry_gas_production,us_supply_dry_gas_production,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,No
+NA_GAS - us_supply_gross_withdrawls,us_supply_gross_withdrawls,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,No
+NA_GAS - us_supply_gross_withdrawls_from_CBM,us_supply_gross_withdrawls_from_CBM,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,No
+Canada_Gas_Storage - canada_gas_demand_data,canada_gas_demand_data,daily,UNPAID,North America,Canada_Gas_Storage,Demand,ee_timestamp,No,No
+NA_GAS - us_working_gas_volume,us_working_gas_volume,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - us_capacity,us_capacity,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - us_weekly_working_gas,us_weekly_working_gas,daily,UNPAID,North America,NA_GAS,Demand,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - daily_prices_data,daily_prices_data,daily,UNPAID,North America,NA_GAS,Prices,ee_timestamp,No,No
+ESTONIA - natural_gas,natural_gas,daily,UNPAID,EMEA,ESTONIA,Natural Gas,ee_timestamp,No,No
+NA_GAS - Price_mapping,Price_mapping,daily,UNPAID,North America,NA_GAS,Price,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NPP - daily_coal_report,daily_coal_stock_info,daily,UNPAID,APAC,NPP,Generation,ee_timestamp,Yes,No
+NORDPOOL - UK_AREA_PRICES_V1,UK_AREA_PRICES_V1,hourly,PAID,EMEA,NORDPOOL,Market_Data,ee_timestamp,Yes,No
+ECONTROL - erdgas_verbaucherstruktur,erdgas_verbaucherstruktur,daily,UNPAID,EMEA,ECONTROL,Natural Gas,ee_timestamp,No,No
+ECONTROL - erdgas_monatsbilanz,erdgas_monatsbilanz,daily,UNPAID,EMEA,ECONTROL,Natural Gas,ee_timestamp,No,No
+SIE_MEXICO - Mexico_Supply_Data,Mexico_State_Monthly_Supply_Total,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,No
+SIE_MEXICO - Mexico_Demand_Data,Mexico_State_Monthly_Demand_Industrial,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+SIE_MEXICO - Mexico_Demand_Data,Mexico_State_Monthly_Demand_PEMEX,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+SIE_MEXICO - Mexico_Demand_Data,Mexico_State_Monthly_Demand_Power,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+SIE_MEXICO - Mexico_Demand_Data,Mexico_State_Monthly_Demand_ResComm_Trans,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+SIE_MEXICO - Mexico_Demand_Data,Mexico_State_Monthly_Demand_Total,daily,UNPAID,North America,SIE_MEXICO,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+ENTSOE - Energy_Prices,Energy_Prices_PT15M,15-min,PAID,EMEA,ENTSOE,Prices,DateTime(UTC),Yes,SRD -> i1000
+ENTSOE - Energy_Prices,Energy_Prices_PT30M,30-min,PAID,EMEA,ENTSOE,Prices,DateTime(UTC),Yes,Analysis ERCOT
+ENTSOE - Energy_Prices,Energy_Prices_PT60M,hourly,PAID,EMEA,ENTSOE,Prices,DateTime(UTC),Yes,SRD -> i1000
+FINLAND_GASGRID - Gas_consumption,Gas_consumption,daily,UNPAID,EMEA,FINLAND_GASGRID,Gas,ee_timestamp,No,No
+KSH_Hungary - primary_energy_consumption_by_energy_carrier,primary_energy_consumption_by_energy_carrier,daily,UNPAID,EMEA,KSH_Hungary,Gas,ee_timestamp,No,No
+FINLAND_GASGRID - Balance_gas_sell_and_buy_prices,Balance_gas_sell_and_buy_prices,daily,UNPAID,EMEA,FINLAND_GASGRID,Gas,ee_timestamp,No,No
+ERCOT - Actual_Loads_of_Forecast_Zones,Actual_Loads_of_Forecast_Zones,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,Yes,Analysis ERCOT
+EMEA_TSO_GAS_SWITZERLAND - overall_energy_statistics,energy_prices_for_consumers,daily,UNPAID,EMEA,EMEA_TSO_GAS_SWITZERLAND,Gas,ee_timestamp,No,No
+EMEA_TSO_GAS_SWITZERLAND - overall_energy_statistics,gas_production_import_conversion_and_consumption,daily,UNPAID,EMEA,EMEA_TSO_GAS_SWITZERLAND,Gas,ee_timestamp,No,No
+EMEA_TSO_GAS_SWITZERLAND - overall_energy_statistics,import_of_energy_sources,daily,UNPAID,EMEA,EMEA_TSO_GAS_SWITZERLAND,Gas,ee_timestamp,No,No
+EMEA_TSO_GAS_SWITZERLAND - overall_energy_statistics,switzerlands_energy_balance,daily,UNPAID,EMEA,EMEA_TSO_GAS_SWITZERLAND,Gas,ee_timestamp,No,No
+EIA - electricity_EIA860,Energy_Storage,daily,UNPAID,North America,EIA,Electricity,ee_timestamp,No,No
+MakStat - natural_gas_in_million_nm3,natural_gas_in_million_nm3,daily,UNPAID,EMEA,MakStat,Gas,ee_timestamp,No,No
+MakStat - share_of_energy_commodities_in_total_gross_electricity_production,share_of_energy_commodities_in_total_gross_electricity_production,daily,UNPAID,EMEA,MakStat,Gas,ee_timestamp,No,No
+CER - natural_gas_production,natural_gas_production,daily,UNPAID,North America,CER,Natural Gas,ee_timestamp,Yes,No
+GREECE_FLOWS - FLOWS,Relative_Entry_Points,daily,UNPAID,EMEA,GREECE_FLOWS,Flows Data,ee_timestamp,No,No
+GREECE_FLOWS - FLOWS,Relative_Exit_Points,daily,UNPAID,EMEA,GREECE_FLOWS,Flows Data,ee_timestamp,No,No
+JAPAN_HEPCO_DEMAND - gas_supply_and_demand,gas_supply_and_demand,30-min,UNPAID,APAC,JAPAN_HEPCO_DEMAND,Gas,ee_timestamp,Yes,SRD->Japan Dataset
+Bundesnetzagentur - gas_imports,gas_imports,daily,UNPAID,EMEA,Bundesnetzagentur,Natural gas,ee_timestamp,No,No
+Bundesnetzagentur - gas_exports,gas_exports,daily,UNPAID,EMEA,Bundesnetzagentur,Natural gas,ee_timestamp,No,No
+Bundesnetzagentur - gas_prices,gas_prices,daily,UNPAID,EMEA,Bundesnetzagentur,Natural gas,ee_timestamp,No,No
+Bundesnetzagentur - gas_production,gas_production,daily,UNPAID,EMEA,Bundesnetzagentur,Natural gas,ee_timestamp,No,No
+KANSAI - demand_renewable_shapes,demand_renewable_shapes,30-min,UNPAID,APAC,KANSAI,Gas,ee_timestamp,Yes,No
+KANSAI - demand_renewable_shapes,historical_kansai_demand_renewable_shapes,30-min,UNPAID,APAC,KANSAI,Gas,ee_timestamp,Yes,No
+Chubu_Electric_Power - area_supply_and_demand_data_monthly,area_supply_and_demand_data_monthly,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - grid_supply_and_demand_info_daily,system_plan,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - grid_supply_and_demand_info_daily,system_forecast,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - grid_supply_and_demand_info_daily,system_performance,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - historic_area_balance_current_term,historic_area_balance_current_term,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - power_generation_results_by_unit,power_generation_results_by_unit,daily,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - power_usage_data_daily,power_usage_data_60M,hourly,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+Chubu_Electric_Power - power_usage_data_daily,power_usage_data_5M,5-min,UNPAID,APAC,Chubu_Electric_Power,Electric Generation & Transmission,ee_timestamp,Yes,No
+EMEA_GAS_ERU_CZ - natural_gas_consumption,natural_gas_consumption,daily,UNPAID,EMEA,EMEA_GAS_ERU_CZ,Gas,ee_timestamp,No,No
+ELEXON - generation_forecasts_for_wind_and_solar_v1,generation_forecasts_for_wind_and_solar_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,ee_timestamp,Yes,SRD -> i1000
+ELEXON - generation_forecasts_for_wind_and_solar_v1,generation_forecasts_for_wind_and_solar_v1,daily,PAID,EMEA,ELEXON,Electric Generation & Transmission,ee_timestamp,Yes,SRD -> i1000
+SPAIN_ENAGAS - IGIG_Data,IGIG_Data,daily,UNPAID,EMEA,SPAIN_ENAGAS,Gas,ee_timestamp,No,No
+JAPAN_TOHOKU_DEMAND - demand_and_renewables_tohoku,demand_and_renewables_tohoku,30-min,UNPAID,APAC,JAPAN_TOHOKU_DEMAND,Demand_and_Supply,ee_timestamp,Yes,SRD->Japan Dataset
+Smart_GRTgaz - daily_consumption,consumption_by_customer_type,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,forecasts_for_GRTgaz_total,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,forecasts_for_HMS,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,forecasts_for_industrial_customers_except_HMS,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,forecasts_for_PIRR,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,forecasts_for_public_distribution,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+Smart_GRTgaz - daily_consumption,shipper_forecasts,daily,UNPAID,EMEA,Smart_GRTgaz,Gas,ee_timestamp,No,No
+SOUTH_ASIA_ENERGY - hourly_exchange_of_power_with_india,hourly_exchange_of_power_with_india,hourly,UNPAID,APAC,SOUTH_ASIA_ENERGY,Load & Demand,ee_timestamp,Yes,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_consumption_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_exoprt_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_import_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_memo_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_production_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_stocks_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_low_calorific_value,TJ_low_calorific_value_export_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_consumption_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_exoprt_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_import_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_memo_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_production_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_stocks_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+DENMARK_NATURAL_GAS - TJ_high_calorific_value,TJ_high_calorific_value_export_data,daily,UNPAID,EMEA,DENMARK_NATURAL_GAS,Gas,ee_timestamp,No,No
+Bundesnetzagentur - total_gas_consumption_monthly,total_gas_consumption_monthly,daily,UNPAID,EMEA,Bundesnetzagentur,Gas,ee_timestamp,No,No
+Bundesnetzagentur - gas_consumption_industry_monthly,gas_consumption_industry_monthly,daily,UNPAID,EMEA,Bundesnetzagentur,Gas,ee_timestamp,No,No
+Bundesnetzagentur - gas_consumption_for_business_and_households_monthly,gas_consumption_for_business_and_households_monthly,daily,UNPAID,EMEA,Bundesnetzagentur,Gas,ee_timestamp,No,No
+JARVIS - provisional_balance,gas_transportation_GCV_KWh_Sm3,daily,UNPAID,EMEA,JARVIS,Gas,ee_timestamp,No,No
+JARVIS - provisional_balance,gas_transportation_GCV_KWh_Nm3,daily,UNPAID,EMEA,JARVIS,Gas,ee_timestamp,No,No
+JARVIS - provisional_balance,gas_transportation_million_kWh,daily,UNPAID,EMEA,JARVIS,Gas,ee_timestamp,No,No
+JARVIS - provisional_balance,gas_transportation_million_Nm3,daily,UNPAID,EMEA,JARVIS,Gas,ee_timestamp,No,No
+JARVIS - provisional_balance,"gas_transportation_million_Sm3_GCV_10,57275_KWh_Sm3",daily,UNPAID,EMEA,JARVIS,Gas,ee_timestamp,No,No
+KSH_Hungary - stocks_of_natural_gas_storage_facilities_on_15th_of_given_month,stocks_of_natural_gas_storage_facilities_on_15th_of_given_month,daily,UNPAID,EMEA,KSH_Hungary,Gas,ee_timestamp,No,No
+ERCOT - DAM_Hourly_LMPs,DAM_Hourly_LMPs,hourly,UNPAID,North America,ERCOT,Generation,ee_timestamp,Yes,No
+JAPAN_CHUGOKU_ENERGIA_DEMAND - demand_and_supply_energia_chugoku,demand_and_supply_energia_chugoku,hourly,UNPAID,APAC,JAPAN_CHUGOKU_ENERGIA_DEMAND,Demand_and_Supply,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN_OKINAWA - publication_of_supply_and_demand,publication_of_supply_and_demand,30-min,UNPAID,APAC,JAPAN_OKINAWA,Load & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN_OKINAWA - publication_of_supply_and_demand,historical_okinawa_publication_of_supply_and_demand,hourly,UNPAID,APAC,JAPAN_OKINAWA,Load & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+Gas_Networks_Ireland - gas_consumption_by_market_sectors,gas_consumption_by_market_sectors,daily,UNPAID,EMEA,Gas_Networks_Ireland,Gas,ee_timestamp,No,No
+Gas_Networks_Ireland - commercial_exit_point_energy_allocations,commercial_exit_point_energy_allocations,daily,UNPAID,EMEA,Gas_Networks_Ireland,Gas,ee_timestamp,No,No
+Gas_Networks_Ireland - physical_flows,physical_flows,daily,UNPAID,EMEA,Gas_Networks_Ireland,Gas,ee_timestamp,No,No
+Gas_Networks_Ireland - commercial_flows,commercial_flows,daily,UNPAID,EMEA,Gas_Networks_Ireland,Gas,ee_timestamp,No,No
+NETHERLANDS_GAS - natural_gas_monthly_consumption_by_sector,natural_gas_monthly_consumption_by_sector,daily,UNPAID,EMEA,NETHERLANDS_GAS,Gas,ee_timestamp,No,No
+NETHERLANDS_GAS - metadata,metadata,daily,UNPAID,EMEA,NETHERLANDS_GAS,Gas,ee_timestamp,No,No
+JAPAN_SHIKOKU_DEMAND - demand_supply_data,demand_supply_data,30-min,UNPAID,APAC,JAPAN_SHIKOKU_DEMAND,Supply & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN_SHIKOKU_DEMAND - demand_supply_data,demand_supply_historical_data,hourly,UNPAID,APAC,JAPAN_SHIKOKU_DEMAND,Supply & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+ERCOT - Zonal_Dam_LZ_HP,Zonal_Dam_LZ_HP,hourly,UNPAID,North America,ERCOT,Day-Ahead Market,ee_timestamp,No,No
+RTE_France - Auvergne-Rhone-Alpes,Auvergne-Rhone-Alpes,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Bourgogne-Franche-Comte,Bourgogne-Franche-Comte,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Bretagne,Bretagne,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Centre-Val-de-Loire,Centre-Val-de-Loire,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Grand-Est,Grand-Est,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Hauts-de-France,Hauts-de-France,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Ile-de-France,Ile-de-France,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Normandie,Normandie,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Nouvelle-Aquitaine,Nouvelle-Aquitaine,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Occitanie,Occitanie,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - PACA,PACA,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+RTE_France - Pays-de-la-Loire,Pays-de-la-Loire,15-min,UNPAID,EMEA,RTE_France,Generation,ee_timestamp,Yes,Analysis (i14)
+SWISSGRID - energy_statistics_switzerland,energy_statistics_switzerland,15-min,UNPAID,EMEA,SWISSGRID,Market Data,ee_timestamp,Yes,Analysis (i14)
+JAPAN_TOKYO_TEPCO_DEMAND_AND_RENEWABLES - demand_and_renewables_tepco_tokyo,demand_and_renewables_tepco_tokyo,30-min,UNPAID,APAC,JAPAN_TOKYO_TEPCO_DEMAND_AND_RENEWABLES,Load & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+barchart_historical_data,PEAK,hourly,PAID,EMEA,BARCHART_HISTORICAL_DATA,Market data,ee_timestamp,No,No
+barchart_historical_data,BASE,hourly,PAID,EMEA,BARCHART_HISTORICAL_DATA,Market data,ee_timestamp,No,No
+EMEA_Gas_Latvia_Stats - imports_and_consumption_of_natural_gas,imports_and_consumption_of_natural_gas,daily,UNPAID,EMEA,EMEA_Gas_Latvia_Stats,Gas,ee_timestamp,No,No
+JAPAN_KYUSHU_DEMAND_AND_RENEWABLES - demand_and_renewables_kyushu,demand_and_renewables_kyushu,30-min,UNPAID,APAC,JAPAN_KYUSHU_DEMAND_AND_RENEWABLES,Load & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+ERCOT - DA_System_Lambda,DA_System_Lambda,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,No
+JAPAN_HOKURIKU_DEMAND_AND_RENEWABLES - demand_and_renewables_hokuriku,demand_and_renewables_hokuriku,hourly,UNPAID,APAC,JAPAN_HOKURIKU_DEMAND_AND_RENEWABLES,Load & Demand,ee_timestamp,Yes,SRD->Japan Dataset
+EMEA_GAS_POLAND - consumption_of_fuel_and_energy,consumption_of_fuel_and_energy,daily,UNPAID,EMEA,EMEA_GAS_POLAND,Gas,ee_timestamp,No,No
+ENTSOE - Commercial_Schedules,Commercial_Schedules_PT60M,hourly,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime(UTC),Yes,SRD -> i1000
+ENTSOE - Commercial_Schedules,Commercial_Schedules_PT15M,15-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime(UTC),Yes,SRD -> i1000
+ENTSOE - Commercial_Schedules,Commercial_Schedules_PT30M,30-min,PAID,EMEA,ENTSOE,Electric Generation & Transmission,DateTime(UTC),Yes,SRD -> i1000
+EMEA_GAS_SERBIA - annual_energy_statistics_and_energy_balances,annual_energy_statistics_and_energy_balances,daily,UNPAID,EMEA,EMEA_GAS_SERBIA,Gas,ee_timestamp,No,No
+FRED - consumer_price_index_for_all_urban_consumers,consumer_price_index_for_all_urban_consumers,daily,UNPAID,North America,FRED,Pricing,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+BANK_OF_CANADA - daily_exchange_rates,daily_exchange_rates,daily,UNPAID,North America,BANK_OF_CANADA,Pricing,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+PECD - TYNDP_PECD_Wind_and_Solar,TYNDP_PECD_Wind_and_Solar,hourly,UNPAID,EMEA,PECD,Load & Demand,ee_timestamp,No,No
+EMEA_GAS_SLOVENIA - annual_consumption_of_natural_gas,annual_consumption_of_natural_gas,daily,UNPAID,EMEA,EMEA_GAS_SLOVENIA,Gas,ee_timestamp,No,No
+PECD - TYNDP_PECD_Hydro,TYNDP_Hydro_MarketNodeInfo,hourly,UNPAID,EMEA,PECD,Load & Demand,ee_timestamp,No,No
+PECD - TYNDP_PECD_Hydro,TYNDP_Hydro_YearDependent,hourly,UNPAID,EMEA,PECD,Load & Demand,ee_timestamp,No,No
+PECD - TYNDP_PECD_Hydro,TYNDP_Hydro_Uniform,hourly,UNPAID,EMEA,PECD,Load & Demand,ee_timestamp,No,No
+ENBRIDGE - storage_inventory,storage_inventory,daily,UNPAID,North America,ENBRIDGE,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+ENBRIDGE - design_capacity_report,design_capacity_report,daily,UNPAID,North America,ENBRIDGE,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+ERCOT - Planned_Unplanned_Transmission_Outage,Planned_Unplanned_Transmission_Outage,hourly,UNPAID,North America,ERCOT,Outage,ee_timestamp,Yes,SRD->ERCOT_CRR
+BOSNIA_HERZEGOVINA_NATURAL_GAS - short_term_indicators_of_energy_statistics,short_term_indicators_of_energy_statistics,daily,UNPAID,EMEA,BOSNIA_HERZEGOVINA_NATURAL_GAS,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+OPENDATA_SWITZERLAND_ENERGY_BALANCE - opendata_switzerlands_energy_balance,opendata_switzerlands_energy_balance,daily,UNPAID,EMEA,OPENDATA_SWITZERLAND_ENERGY_BALANCE,Gas,ee_timestamp,Yes,No
+NITI_AYOG - demand_load_curve_historical_data,demand_load_curve_historical_data,hourly,UNPAID,APAC,NITI_AYOG,Load & Demand,ee_timestamp,Yes,No
+ERCOT - Hourly_Real_Time_vs_Actual_Load,Hourly_Real_Time_vs_Actual_Load,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,No,No
+ERCOT - Seven_Day_Load_Forecast_by_Weather_Zone,Seven_Day_Load_Forecast_by_Weather_Zone,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,Yes,SRD -> ERCOT_CRR
+GRID_INDIA_PSP - PSP_Reports,InterState,daily,UNPAID,APAC,GRID_INDIA_PSP,Power Demand,ee_timestamp,Yes,No
+GRID_INDIA_PSP - PSP_Reports,CrossBorder,daily,UNPAID,APAC,GRID_INDIA_PSP,Power Demand,ee_timestamp,Yes,No
+GRID_INDIA_PSP - PSP_Reports,InterRegional,daily,UNPAID,APAC,GRID_INDIA_PSP,Power Demand,ee_timestamp,Yes,No
+REN_DATA_HUB - consumption,consumption,daily,UNPAID,EMEA,REN_DATA_HUB,Gas,ee_timestamp,No,No
+REN_DATA_HUB - transmission_network_balance,transmission_network_balance,daily,UNPAID,EMEA,REN_DATA_HUB,Gas,ee_timestamp,No,No
+REN_DATA_HUB - LNG_terminal_balance,LNG_terminal_balance,daily,UNPAID,EMEA,REN_DATA_HUB,Gas,ee_timestamp,No,No
+REN_DATA_HUB - underground_storage_balance,underground_storage_balance,daily,UNPAID,EMEA,REN_DATA_HUB,Gas,ee_timestamp,No,No
+JAPAN - DEMAND_FORECAST_DATA,energy_demand_end_of_use_by_application,daily,UNPAID,APAC,JAPAN,Demand,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - DEMAND_FORECAST_DATA,supply_area_demand_forecast,daily,UNPAID,APAC,JAPAN,Demand,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - DEMAND_FORECAST_DATA,supply_area_demand_forecast_next_year,daily,UNPAID,APAC,JAPAN,Demand,ee_timestamp,Yes,SRD->Japan Dataset
+JAPAN - DEMAND_FORECAST_DATA,demand_forecast_nationwide_by_supply_area,daily,UNPAID,APAC,JAPAN,Demand,ee_timestamp,Yes,SRD->Japan Dataset
+ENTSOE - Water_Reservoirs_and_Hydro_Storage_Capacities,Water_Reservoirs_and_Hydro_Storage_Capacities_P7D,daily,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,No
+ENTSOE - Water_Reservoirs_and_Hydro_Storage_Capacities,Water_Reservoirs_and_Hydro_Storage_Capacities_P7D,daily,PAID,EMEA,ENTSOE,Generation,DateTime,Yes,No
+JAPAN_OCCTO - nodal_level_flow_information,nodal_level_flow_information,daily,UNPAID,APAC,JAPAN_OCCTO,Flow,ee_timestamp,Yes,No
+ERCOT - DAM_SHADOW_PRICES,DAM_SHADOW_PRICES,hourly,UNPAID,North America,ERCOT,Day-Ahead Market,ee_timestamp,Yes,SRD->ERCOT_CRR
+EMEA_GAS_UK - National_Gas_NTS_Data,National_Gas_NTS_Data,daily,UNPAID,EMEA,EMEA_GAS_UK,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+EMEA_GOV_UK - dukes_data,dukes_data,daily,UNPAID,EMEA,EMEA_GOV_UK,Gas,ee_timestamp,No,No
+EMEA_GAS_ROMANIA_PHYSICAL_FLOWS - physical_flows_romania,physical_flows_romania,daily,UNPAID,EMEA,EMEA_GAS_ROMANIA_PHYSICAL_FLOWS,Gas,ee_timestamp,No,No
+EMEA_GAS_UK - National_Gas_NTS_System_Entry_Volume_Data,National_Gas_NTS_System_Entry_Volume_Data,daily,UNPAID,EMEA,EMEA_GAS_UK,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+GASSCO - exit_nomination_history,exit_nomination_history,daily,UNPAID,EMEA,GASSCO,Gas,ee_timestamp,No,No
+AIOLOS - short_day_ahead_wind_60M,short_day_ahead_wind_60M,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+AIOLOS - short_day_ahead_load_60M,short_day_ahead_load_60M,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+AIOLOS - short_day_ahead_solar_60M,short_day_ahead_solar_60M,hourly,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+AIOLOS - short_day_ahead_solar_15M,short_day_ahead_solar_15M,15-min,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+AIOLOS - short_day_ahead_load_15M,short_day_ahead_load_15M,15-min,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+AIOLOS - short_day_ahead_wind_15M,short_day_ahead_wind_15M,15-min,PAID,EMEA,AIOLOS,Generation and Load Forecast,ee_timestamp,Yes,Analysis (i14)
+EMEA_GAS_SWEDEN - supply_consumption_natural_gas_lng,supply_consumption_natural_gas_lng,daily,UNPAID,EMEA,EMEA_GAS_SWEDEN,Gas,ee_timestamp,No,No
+ERCOT - SCED_Disclosure_Reports,SCED_DSR_load_data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - SCED_Disclosure_Reports,SCED_SMNE_GEN_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - SCED_Disclosure_Reports,SCED_QSE_Self_arranged_data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - SCED_Disclosure_Reports,SCED_load_resource_data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ERCOT - SCED_Disclosure_Reports,SCED_Gen_Resource_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+EMEA_Gas_Lithuania_Stats - imports_of_fuel_and_energy_monthly,imports_of_fuel_and_energy_monthly,daily,UNPAID,EMEA,EMEA_Gas_Lithuania_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Lithuania_Stats - exports_of_fuel_and_energy_monthly,exports_of_fuel_and_energy_monthly,daily,UNPAID,EMEA,EMEA_Gas_Lithuania_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Lithuania_Stats - fuel_and_energy_resources_monthly,fuel_and_energy_resources_monthly,daily,UNPAID,EMEA,EMEA_Gas_Lithuania_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Lithuania_Stats - energy_balances_annual,energy_balances_annual,daily,UNPAID,EMEA,EMEA_Gas_Lithuania_Stats,Gas,ee_timestamp,No,No
+BALKAN_GAS_HUB - day_ahead_prices,day_ahead_prices,daily,UNPAID,EMEA,BALKAN_GAS_HUB,Gas,ee_timestamp,No,No
+ERCOT - HOURLY_LOAD_DATA,Hourly_Load_Data,hourly,UNPAID,North America,ERCOT,Load,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - DAM_Disclosure_Reports,DAM_Energy_Bid_Awards_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_Energy_Bid_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_Energy_Only_Offer_Awards_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_Energy_Only_Offers_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_Gen_Resource_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_PTP_Obligation_Bid_Awards_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ERCOT - DAM_Disclosure_Reports,DAM_PTP_Obligation_Bids_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_PTP_Obligation_Option_Awards_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ERCOT - DAM_Disclosure_Reports,DAM_PTP_Obligation_Option_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_QSE_Self_Arranged_AS_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+ERCOT - DAM_Disclosure_Reports,DAM_Load_Resource_Data,hourly,UNPAID,North America,ERCOT,Load & Demand,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - energy_consumption_statistics_natural_gas,energy_consumption_statistics_natural_gas,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,primary_energy_consumption,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,final_energy_consumption,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,final_energy_consumption_by_sector,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,net_energy_imports,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,imports_of_natural_gas,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+EMEA_Gas_Belgium_Stats - belgian_energy_data_overview,price_of_natural_gas,daily,UNPAID,EMEA,EMEA_Gas_Belgium_Stats,Gas,ee_timestamp,No,No
+NA_GAS - LNG_import_capacity,LNG_import_capacity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Annual_prices_rystad_apr24,Annual_prices_rystad_apr24,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Elasticity,Elasticity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Master_Table_simplified_test,Master_Table_simplified_test,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - LNG_Feedgas_Demand_Exogenous_Aug24,LNG_Feedgas_Demand_Exogenous_Aug24,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+EMEA_GAS_HUB_NW_LNG - price_assessments,price_assessments,daily,UNPAID,EMEA,EMEA_GAS_HUB_NW_LNG,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+NA_GAS - NGI_Master_Table,NGI_Master_Table,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+PHILIPPINES-IEMOP - RTD_Reserve_Schedules,RTD_Reserve_Schedules,5-min,UNPAID,APAC,PHILIPPINES-IEMOP,Power Demand,ee_timestamp,Yes,No
+EEX - Products_and_Units,Products_and_Units,daily,UNPAID,EMEA,EEX,Gas,ee_timestamp,No,No
+EMEA_GAS_FRANCE - peg_eex_monthly_price,peg_eex_monthly_price,daily,UNPAID,EMEA,EMEA_GAS_FRANCE,Gas,ee_timestamp,No,No
+NA_GAS - Child_Name_Demand,Child_Name_Demand,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - EE_Total_Dry_Gas,EE_Total_Dry_Gas,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+OFGEM_UK - gas_prices_day_ahead_contracts_monthly_avg_GB,gas_prices_day_ahead_contracts_monthly_avg_GB,daily,UNPAID,EMEA,OFGEM_UK,Gas,ee_timestamp,Yes,Analysis
+EMEA_GAS_PORTUGAL - daily_prices,daily_prices,daily,UNPAID,EMEA,EMEA_GAS_PORTUGAL,Prices,ee_timestamp,No,No
+Turkish_EDP - Gas_Price,Gas_Price,daily,UNPAID,EMEA,Turkish_EDP,Gas,ee_timestamp,Yes,Analysis
+EMEA_GAS_ROMANIA - spot_market_quotes,spot_market_quotes,daily,UNPAID,EMEA,EMEA_GAS_ROMANIA,Prices,ee_timestamp,No,No
+ELEXON - fourteen_day_ahead_generation_capacity_forecast,fourteen_day_ahead_generation_capacity_forecast,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - fourteen_day_ahead_generation_capacity_forecast,fourteen_day_ahead_generation_capacity_forecast,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - forecast_2_14_day_ahead_data,forecast_2_14_day_ahead_data,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - forecast_2_14_day_ahead_data,forecast_2_14_day_ahead_data,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+EMEA_Gas_transformations - factor_files,demand_annual_growth_factors,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,No
+EMEA_Gas_transformations - factor_files,production_annual_growth_factors,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,No
+EMEA_Gas_transformations - factor_files,demand_sector_share_factors,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+EMEA_Gas_transformations - factor_files,demand_MT_sector_values,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+EMEA_Gas_transformations - factor_files,demand_daily_seasonal_factors,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+EMEA_Gas_transformations - factor_files,production_daily_seasonal_factors,daily,UNPAID,EMEA,EMEA_Gas_transformations,Gas,ee_timestamp,Yes,SRD -> EMEAGas
+TGE - Natural_Gas,Natural_Gas,daily,UNPAID,EMEA,TGE,Gas,ee_timestamp,No,No
+ELEXYS_BELGIUM - spot_ztp,spot_ztp,daily,UNPAID,EMEA,ELEXYS_BELGIUM,Gas,ee_timestamp,No,No
+NEM_WHOLESALE_ELECTRICITY - constraints,constraints,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+EMEA_GAS_HUNGARY - market_data_ceegex,market_data_ceegex,daily,UNPAID,EMEA,EMEA_GAS_HUNGARY,Gas,ee_timestamp,No,No
+EMEA_GAS_LATVIA - baltic_price_data,baltic_price_data,daily,UNPAID,EMEA,EMEA_GAS_LATVIA,Gas,ee_timestamp,No,No
+EMEA_GAS_GREECE - natural_gas_dol,Auctions_Details,daily,UNPAID,EMEA,EMEA_GAS_GREECE,Gas,ee_timestamp,No,No
+EMEA_GAS_GREECE - natural_gas_dol,NGAS_Results,daily,UNPAID,EMEA,EMEA_GAS_GREECE,Gas,ee_timestamp,No,No
+EMEA_GAS_ESTONIA_ELERING - gas_market_prices,gas_market_prices,daily,UNPAID,EMEA,EMEA_GAS_ESTONIA_ELERING,Gas,ee_timestamp,No,No
+Iberian - MIBGAS,AVB,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,PVB,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,Yes,No
+Iberian - MIBGAS,VTP,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,PVB_LPI,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,PVB_TTF,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,TVB,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,MIBGAS_Indices,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,MIBGAS_Indices_before_2023,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,MIBGAS_Indices_after_2023,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+Iberian - MIBGAS,Trading_Data_LNG,daily,UNPAID,EMEA,Iberian,GAS,ee_timestamp,No,No
+NEM_WHOLESALE_ELECTRICITY - generator_price_brands,generator_price_brands,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - dispatchable_units,dispatchable_units,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - interconnectors,interconnectors,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - region,region,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - monthly_scada,monthly_scada,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,Yes,No
+NEMWEB_REPORTS - Public_Prices,Public_Prices,5-min,UNPAID,APAC,NEMWEB_REPORTS,Prices,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - region_price,region_price,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Prices,ee_timestamp,Yes,No
+NEM_WHOLESALE_ELECTRICITY - monthly_gen,monthly_gen,daily,UNPAID,APAC,NEM_WHOLESALE_ELECTRICITY,Generation,ee_timestamp,No,No
+NEM_DEMAND_FORECAST - electricity_annual_consumption,electricity_annual_consumption,daily,UNPAID,APAC,NEM_DEMAND_FORECAST,Electric Generation & Transmission,ee_timestamp,Yes,No
+NEM_DEMAND_FORECAST - electricity_maximum_demand,electricity_maximum_demand,daily,UNPAID,APAC,NEM_DEMAND_FORECAST,Electric Generation & Transmission,ee_timestamp,Yes,No
+NEM_DEMAND_FORECAST - electricity_minimum_demand,electricity_minimum_demand,daily,UNPAID,APAC,NEM_DEMAND_FORECAST,Electric Generation & Transmission,ee_timestamp,Yes,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_7D_LOAD_FCST,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_ACT_LOAD,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_LOAD_FCST_VS_ACT,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_HIST_NATIVE_LOAD,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_2D_RT_LOAD,15-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_BC_LOAD_PROF,15-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_SYS_DEM,15-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_RT_SYS_DEM,1-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_REG_DEP,15-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_IH_LOAD_FCST_VINTAGE,5-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_IH_LOAD_FCST,5-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_GMC_DEM,5-min,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_DAM_TEPS,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_DAM_PTP_OR_SP,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_CF_RES,daily,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Demand,ERCOT_7D_LOAD_FCST_VINTAGE,hourly,PAID,North America,ARCUS_ERCOT,Demand,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Outage,ERCOT_TRANS_OUT,1-min,PAID,North America,ARCUS_ERCOT,Outage,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Outage,ERCOT_UNPL_RES_OUT,1-min,PAID,North America,ARCUS_ERCOT,Outage,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Outage,ERCOT_SCED_GR_AGG_OUT,15-min,PAID,North America,ARCUS_ERCOT,Outage,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Price,ERCOT_3D_HP_AS_OFFER,hourly,PAID,North America,ARCUS_ERCOT,Price,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Price,ERCOT_DAM_CLRG_PRC_CAP,hourly,PAID,North America,ARCUS_ERCOT,Price,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Price,ERCOT_LAMBDA,5-min,PAID,North America,ARCUS_ERCOT,Price,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_SASM,ERCOT_SASM_AGG_AS_OF,hourly,PAID,North America,ARCUS_ERCOT,SASM,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_SASM,ERCOT_AS_PROC_SASM,hourly,PAID,North America,ARCUS_ERCOT,SASM,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_SASM,ERCOT_SASM_MCPC_AS,hourly,PAID,North America,ARCUS_ERCOT,SASM,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Shift_Factors,ERCOT_DAM_SF,hourly,PAID,North America,ARCUS_ERCOT,Shift Factors,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Shift_Factors,ERCOT_SCED_SF,5-min,PAID,North America,ARCUS_ERCOT,Shift Factors,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ESR,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_GEN_OUT,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_SOLAR,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ST_WIND_FCST,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_SW_FCST,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_WIND,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_2D_RT_GEN,15-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ACT_TLF,15-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ACT_WPP,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_AGG_WSO,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_FUEL_MIX,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_GMC_SPLY,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_IH_SW_FCST,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RES_OUT_CAP,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RNEW_INTG,daily,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RTD_ORDC_ADDER_RSV,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RT_ORDC_ADDER_RSV,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RUC_CD_RES,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,Yes,SRD -> ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_SE_LOAD_GEN,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_SMRY_HDL_LDL,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ST_ADQ,15-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ST_ADQ_VINTAGE,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_ST_WIND_FCST_VINTAGE,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_WSL,15-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RT_SYS_SPLY,1-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_IH_SW_FCST_VINTAGE,5-min,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Supply,ERCOT_RES_OUT_CAP_VINTAGE,hourly,PAID,North America,ARCUS_ERCOT,Supply,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Transmission,ERCOT_GTL,hourly,PAID,North America,ARCUS_ERCOT,Transmission,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Transmission,ERCOT_SE_LOAD_FLOW,hourly,PAID,North America,ARCUS_ERCOT,Transmission,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Transmission,ERCOT_SHD_PRC_CNST,1-min,PAID,North America,ARCUS_ERCOT,Transmission,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Weather,ERCOT_WEATHER,hourly,PAID,North America,ARCUS_ERCOT,Weather,ee_timestamp,No,No
+CEGH - DayAheadMarket,DayAheadMarket,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+CEGH - QuarterlyFutures,QuarterlyFutures,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+CEGH - Seasons,Seasons,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+CEGH - YearlyFutures,YearlyFutures,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+CEGH - MonthlyFutures,MonthlyFutures,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+CEGH - greenhydrogen_index,greenhydrogen_index,daily,UNPAID,EMEA,CEGH,Gas,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_AGG_AS_OC,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_AS_OFFERS,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_DAM_ASP,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_AS,1-min,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_AS_CAP,1-min,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_2D_AS_DAM_CLRD_QTY,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_2D_AS_AGG_OFFER,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,Yes,Analysis(ERCOT_CRR/Reference Cases)
+ARCUS_ERCOT - arcus_ercot_Ancillary,ERCOT_2D_AS_SA_QTY,hourly,PAID,North America,ARCUS_ERCOT,Ancillary,ee_timestamp,No,No
+ELEXON - three_year_generation_capacity_forecast,three_year_generation_capacity_forecast,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+ELEXON - three_year_generation_capacity_forecast,three_year_generation_capacity_forecast,daily,PAID,EMEA,ELEXON,Generation,ee_timestamp,No,No
+LIGNITE_EUROPE - lignite_coal_price_index,lignite_coal_price_index,daily,UNPAID,EMEA,LIGNITE_EUROPE,Prices,ee_timestamp,No,No
+Investing_com - Coal_API2_CIF_ARA,Coal_API2_CIF_ARA,daily,UNPAID,EMEA,Investing_com,Gas,ee_timestamp,No,No
+CME_GROUP - TTF_Futures_Quotes,TTF_Futures_Quotes,daily,UNPAID,EMEA,CME_GROUP,Gas,ee_timestamp,Yes,No
+CME_GROUP - JKM_Futures_Quotes,JKM_Futures_Quotes,daily,UNPAID,EMEA,CME_GROUP,Gas,ee_timestamp,Yes,No
+CME_GROUP - NW_LNG_Futures_Quotes,NW_LNG_Futures_Quotes,daily,UNPAID,EMEA,CME_GROUP,Gas,ee_timestamp,Yes,No
+EMEA_GAS_NL_RTM_OIL - rotterdam_bunker_prices,LSMGO,daily,UNPAID,EMEA,EMEA_GAS_NL_RTM_OIL,Prices,ee_timestamp,Yes,No
+EMEA_GAS_NL_RTM_OIL - rotterdam_bunker_prices,VLSFO,daily,UNPAID,EMEA,EMEA_GAS_NL_RTM_OIL,Prices,ee_timestamp,Yes,No
+Investing_com - JKM_Historical,JKM_Historical,daily,UNPAID,EMEA,Investing_com,Gas,ee_timestamp,Yes,No
+Investing_com - TTF_Historical,TTF_Historical,daily,UNPAID,EMEA,Investing_com,Gas,ee_timestamp,Yes,No
+NA_GAS - Gas_Pipeline_Mapping,Gas_Pipeline_Mapping,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,No
+NA_GAS - Gas_Node_Mapping,Gas_Node_Mapping,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,No
+NA_GAS - Monthly_Price_Mapping,Monthly_Price_Mapping,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,No
+NA_GAS - Gas_Pipeline_Max_Flow_Day,Gas_Pipeline_Max_Flow_Day,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,No
+NA_GAS - CA_Pipeline_Capacity,CA_Pipeline_Capacity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,No
+NA_GAS - Outage,Max_Flow_Day_S1,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Outage,Max_Flow_Day,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Outage,Max_Flow_Back_Day_S,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - Outage,Max_Flow_Back_Day,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,SRD -> NA_GAS_Insights
+NA_GAS - weekly_storage_historic,Daily_Min_Storage_Target,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_storage_historic,Daily_Max_Storage_Target,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_storage_historic,Max_Volume,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_storage_historic,Initial_Volume,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_storage_historic,Max_Storage_Target,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_storage_historic,Min_Storage_Target,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_price_historic,Daily_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - weekly_price_historic,Monthly_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+barchart_updated,BASE,hourly,PAID,EMEA,barchart_updated,BARCHART,ee_timestamp,No,No
+barchart_updated,PEAK,hourly,PAID,EMEA,barchart_updated,BARCHART,ee_timestamp,No,No
+JAO - nordic_final_computation,nordic_final_computation,hourly,UNPAID,EMEA,JAO,Power Transmission,dateTimeUtc,No,No
+EMEA_GAS_CEIC - Czech_Republic_Natural_Gas,Czech_Republic_Natural_Gas,daily,UNPAID,EMEA,EMEA_GAS_CEIC,Gas,ee_timestamp,No,No
+NA_GAS - elasticity_demand_and_supply_historic,Commercial_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Commercial_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Commercial_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Electric_Power_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Electric_Power_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Electric_Power_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Industrial_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Industrial_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Industrial_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,LNG_Feedgas_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,LNG_Feedgas_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Production_Cost,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Production_Volume,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Residential_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Residential_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Residential_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Transportation_Demand_Bid_Price,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Transportation_Demand_Bid_Quantity,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,Transportation_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+NA_GAS - elasticity_demand_and_supply_historic,LNG_Feedgas_Demand_Bid_Slope,daily,UNPAID,North America,NA_GAS,Gas,ee_timestamp,Yes,As it is
+ARCUS_ERCOT - arcus_ercot_Ancillary_Price,ERCOT_RTD_ORDC_ADDER_PRC,5-min,PAID,North America,ARCUS_ERCOT,Ancillary Price,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Ancillary_Price,ERCOT_RT_ORDC_ADDER_PRC,5-min,PAID,North America,ARCUS_ERCOT,Ancillary Price,ee_timestamp,No,No
+ARCUS_ERCOT - arcus_ercot_Frequency,ERCOT_CON_BAAL_EXC,1-min,PAID,North America,ARCUS_ERCOT,Frequency,ee_timestamp,Yes,SRD->ERCOT_CRR
+ARCUS_ERCOT - arcus_ercot_Frequency,ERCOT_RT_SYS_FREQ,1-min,PAID,North America,ARCUS_ERCOT,Frequency,ee_timestamp,No,No
